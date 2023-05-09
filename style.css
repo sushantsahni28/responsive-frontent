@@ -1,0 +1,178 @@
+.html{
+    height: 100%;
+}
+body {
+    font: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+.colorOrange{
+        color: #DE6834;
+}
+.navButton{
+    background-color:#DE6834;
+    color:white;
+    padding: 5px 10px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 20px;
+    border: none;
+    margin: 10px 0 10px 0;
+}
+.gradientText{
+    font-size: 110px;
+    font-weight: bold;
+    background-image: linear-gradient( #DE6834 70%, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.first-containeer{
+    padding:130px;
+    margin-right:120px;
+    line-height: 0.5;
+}
+.h2_my{
+    font-size:20px;
+}
+#hero{
+    background-image: url("img/pink_bg-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    width: 100%;
+    
+}
+#explorebtn{
+    background-color: #DE6834;
+    color: white;
+    padding: 20px 45px;
+    text-align: center;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.heading-label{
+    color:#DE6834;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading-h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+.heading-desc{
+    padding: 12px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.heading-para{
+    font-size: 27px;
+}
+.active-top{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0.5;
+}
+.active-bot {
+    color: white;
+    font-size: 17px;
+}
+.image-top{
+    color:white;
+    font-weight: bold;
+    font-size: 75px;
+}
+.avatar-test{
+    border: 2px dashed red;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    left:30px;
+    top: 30px;
+}
+
+.carousel-control-prev-icon {
+    margin-left: -110px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFEEE5' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    margin-right: -110px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FFEEE5' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.touch-text{
+    margin-top:70px;
+}
+#footer{
+    background-color: #cec6c65f;
+    height: 175px;
+    margin-top: 60px;
+}
+
+@media screen and (min-width: 400px) {
+.get-in-touch {
+        background-color: #FFEEE5;
+        height: 250px;
+        width: 100%;
+        margin-left: 10px;
+        border-radius: 10px;
+    }
+.activity-section {
+        background-image: linear-gradient(to right bottom, #DE6834, #9C4119);
+        width: 100%;
+        height: 200px;
+        border-radius: 12px;
+        padding: 10px;
+    }
+.test-row {
+    width: 100%;
+    height: 500px;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 0px 2px 2px rgba(68, 68, 68, 0.6);
+    border-radius: 12px;
+}
+.fl-right {
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    top: 40px;
+    word-spacing: 5px;
+}
+}
+
+@media screen and (min-width: 800px) {
+    .get-in-touch {
+            background-color: #FFEEE5;
+            height: 250px;
+            width: 1110px;
+            margin-left: 190px;
+            border-radius: 10px;
+        }
+    .activity-section {
+                background-image: linear-gradient(to right bottom, #DE6834, #9C4119);
+                width: 1110px;
+                height: 180px;
+                border-radius: 12px;
+        }
+    .test-row {
+            width: 1010px;
+            height: 250px;
+            padding: 15px;
+            background-color: white;
+            box-shadow: 0px 0px 2px 2px rgba(68, 68, 68, 0.6);
+            border-radius: 12px;
+    }
+    .fl-right {
+        font-size: 15px;
+        position: relative;
+        left: 160px;
+        top: 40px;
+        word-spacing: 5px;
+    }
+}
+
